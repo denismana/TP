@@ -1,0 +1,6 @@
+if(v=(double*)malloc(n)==NULL)
+
+-alocarea este facuta gresit deoarece nu se specifica marimea ce trebuie alocata => malloc(n*sizeof(double))
+-parantezele lipsesc astfel v nu este alocat corect ,dar cum este diferit de NULL programul ruleaza in continuare
+
+for-ul din functie incepe de la 1 , ignorand prima valuare din vector deoarece in main citirea se face de la 0
