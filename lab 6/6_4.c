@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-#define CITIRE(A,TIP,X,MIN,MAX)
+#define CITIRE(A,TIP,X,MIN,MAX)                 ///de ce imi cere inainte de define o paranteza sau ceva?
     {
         printf(A);
         scanf("%#TIP",&X);
