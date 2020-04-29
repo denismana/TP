@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-#define FN_SORTARE(TIP)
+#define FN_SORTARE(TIP)                                 /////de ce la compilare am eroare cu stray "##" programul ii facut dupa exemplu...
     void sortare__##TIP( TIP p[],int n)
     {
         int i,j,aux;
